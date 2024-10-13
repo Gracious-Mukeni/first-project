@@ -1,0 +1,79 @@
+.head{
+    font-size:x-large;
+    color: #0564f1;
+    margin-left: 40%;
+    font-weight: 800;
+}
+.head-1{
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+}
+.card{
+    width: 350px;
+    margin-left: 30%;
+    justify-items: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    margin-top: 5px;
+}
+.card-1{
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+}
+.email{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 30px;
+    width: 290px;
+    margin:5px;
+    margin-right: 5px;
+}
+.password{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 30px;
+    width: 290px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers the button horizontally */
+    align-items: center;     /* Optionally center it vertically if necessary */
+    margin-top: 20px;        /* Optional margin to space the button from other content */
+}
+
+.login {
+    height: 35px;
+    border-radius: 6px;
+    background-color: rgb(14, 106, 211);
+    width: 290px;
+    margin-top: 7px;
+    margin-left: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: rgb(10, 85, 170);
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between; /* space between the items */
+    align-items: center; /* center items vertically */
+    padding: 10px; /* optional padding for spacing */
+    /* background-color: brown; */ /* Uncomment if you want a background */
+}
+
+.label-1, .label-2 {
+    margin: 0; /* Ensures no extra margin around the paragraphs */
+    color: rgb(24, 100, 241)
+}
